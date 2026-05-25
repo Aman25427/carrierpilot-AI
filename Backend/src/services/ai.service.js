@@ -1,4 +1,4 @@
-const { GoogleGenAI } = require("@google/gemini")
+const { GoogleGenAI } = require("@google/genai")
 const { z } = require("zod")
 const { zodToJsonSchema } = require("zod-to-json-schema")
 const puppeteer = require("puppeteer")
